@@ -68,7 +68,9 @@ function removeFromCart(item) {
     // }
 
     var counter = 0;
-    var
+    var current = -1;
+    
+    for (let i = 0; i>)
   
 }
 
