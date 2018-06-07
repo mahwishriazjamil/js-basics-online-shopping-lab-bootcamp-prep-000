@@ -67,6 +67,8 @@ function removeFromCart(item) {
     //   return `That item is not in your cart.`
     // }
 
+    var counter = 0;
+    var
   
 }
 
