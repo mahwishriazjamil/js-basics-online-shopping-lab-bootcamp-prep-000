@@ -69,7 +69,6 @@ function removeFromCart(item) {
     
     if (counter > 0 && current != -1) {
       cart.splice(current, 1)
-      // return the cart
       return cart
     }
     
