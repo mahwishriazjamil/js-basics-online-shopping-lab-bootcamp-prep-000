@@ -70,7 +70,7 @@ function removeFromCart(item) {
     var counter = 0;
     var current = -1;
     
-    for (let i = 0; i>)
+    for (let i = 0; i < cart.length)
   
 }
 
