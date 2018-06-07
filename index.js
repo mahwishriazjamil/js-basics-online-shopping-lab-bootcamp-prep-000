@@ -56,8 +56,9 @@ function total() {
 }
 
 function removeFromCart(item) {
-
+    // counter for when looping
     var counter = 0;
+    // variable to hold the current item if it matches 'item'
     var current = -1;
     
     for (let i = 0; i < cart.length; i++){
