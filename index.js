@@ -64,7 +64,7 @@ function removeFromCart(item) {
     // for loop to loop through cart
     for (let i = 0; i < cart.length; i++){
       // if any value matches 'name'...
-      if (cart[i].itemName === name){
+      if (cart[i].itemName === item){
         // counter is set to '1', whilst current is set to the value of i
         counter = 1;
         current = i;
