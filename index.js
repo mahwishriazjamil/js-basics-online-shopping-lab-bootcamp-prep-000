@@ -57,15 +57,15 @@ function total() {
 
 function removeFromCart(item) {
 
-    var index = cart.indexOf(item);
-    if (index > -1) {
-      cart.splice(index, 1);
-      return cart;
-    }
+    // var index = cart.indexOf(item);
+    // if (index > -1) {
+    //   cart.splice(index, 1);
+    //   return cart;
+    // }
     
-    else {
-      return `That item is not in your cart.`
-    }
+    // else {
+    //   return `That item is not in your cart.`
+    // }
   
 }
 
