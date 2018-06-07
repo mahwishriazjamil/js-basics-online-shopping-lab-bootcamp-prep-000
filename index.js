@@ -94,4 +94,3 @@ function placeOrder(cardNumber) {
 
   }
 }
-}
