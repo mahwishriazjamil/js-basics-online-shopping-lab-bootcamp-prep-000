@@ -57,16 +57,6 @@ function total() {
 
 function removeFromCart(item) {
 
-    // var index = cart.indexOf(item);
-    // if (index > -1) {
-    //   cart.splice(index, 1);
-    //   return cart;
-    // }
-    
-    // else {
-    //   return `That item is not in your cart.`
-    // }
-
     var counter = 0;
     var current = -1;
     
@@ -77,14 +67,15 @@ function removeFromCart(item) {
       }
     }
     
-    if(counter > 0 && current != -1)
-    {
+    if(counter > 0 && current != -1) {
       cart.splice(current, 1)
       // return the cart
       return cart
-
-  
-}
+    }
+    
+    else {
+      return `That item is not in your cart.`
+    }
 
 function placeOrder(cardNumber) {
   var tot = total()
@@ -99,4 +90,5 @@ function placeOrder(cardNumber) {
 
 
   }
+}
 }
